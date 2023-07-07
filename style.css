@@ -53,6 +53,14 @@
 .ex-6-img:hover{
     filter: grayscale(1);
 } 
+.ex-7-img {
+    transition: 3s;
+
+}
+.ex-7-img:hover {
+   filter: hue-rotate(90deg);
+   filter: sepia(3)
+}
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
