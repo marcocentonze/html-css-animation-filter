@@ -75,7 +75,14 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 3s;
 }
+.ex-9-img:hover {
+    filter: hue-rotate(90deg);
+    filter: sepia(3);
+    border-radius: 20%;
+    transform: scale(1.4);
+ }
 .ex-10-icon {
     font-size: 60px;
 }
